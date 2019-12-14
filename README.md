@@ -17,3 +17,12 @@ const addNewGoalHandler = (newGoal) => {
 };
 ```
 Note: `setCourseGoals(courseGoals.concat(newGoal));` can achieve the same effects when the state does not change rapidly. However, it is not as safe as the above approach because ...
+
+
+### Syntax
+- `...props`
+    - is called spread syntax which expands an iterable object (e.g. string, array, obj).
+    - e.x. `<ModalOverlay {...props}/>`
+- `<CSSTransition classNames="foo"></CSSTransition>`
+    - notice that we want to set the className*s* prop and define classes accordingly in the css in order for it to work.
+    
